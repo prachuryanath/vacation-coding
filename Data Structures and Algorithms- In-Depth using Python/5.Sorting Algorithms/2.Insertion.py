@@ -1,7 +1,4 @@
 # Insertion Sort O(n**2) --> Stable sorting
-from turtle import position
-
-
 def insertionsort(A):
     n = len(A)
     for i in range(1,n):
